@@ -717,7 +717,7 @@ letter-spacing: 0.32px;
 .modal-form-label {
   display: block;
   line-height: 1.17;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   margin-bottom: 4px;
   padding-top: 8px;
   color: var(--lightslate, #8E8F99);
@@ -739,14 +739,16 @@ letter-spacing: 0.32px;
   border-radius: 4px;
   outline: transparent;
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-icon {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 16px;
   margin-left: 16px;
   pointer-events: none;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:focus {
   border-color: #4d5ae5;
@@ -772,8 +774,7 @@ margin-bottom: 16px;
   border-color: #4d5ae5;
 }
 /* CHECKBOX STYLES*/
-.form-checkbox {
-}
+
 .form-agreement {
   display: flex;
   align-items: center;
