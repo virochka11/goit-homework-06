@@ -700,6 +700,9 @@ body {
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.input.container {
+  margin-bottom: 8px;
+}
 .modal-caption {
   display: block;
   margin-bottom: 16px;
@@ -713,6 +716,8 @@ letter-spacing: 0.32px;
 }
 .modal-form-label {
   display: block;
+  line-height: 1.17;
+  letter-spacing: 0.04;
   margin-bottom: 4px;
   padding-top: 8px;
   color: var(--lightslate, #8E8F99);
