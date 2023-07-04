@@ -425,11 +425,28 @@
             </li>
           </ul>
         </div>
-        <div class="footer-subscribe">
+         <div class="footer-subscribe">
           <p class="section-subtitle light">Subscribe</p>
-          <form class="form-footer">
-            <div></div>
-            <input type="email" />
+          <form class="footer-form">
+            <label for="email" class="subscribe-label"
+              >Subscribe
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="footer-subscribe-mail"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="footer-subscribe-btn" type="submit">
+              <!-- <span class="button-wrapper"> -->
+              Subscribe
+              <svg class="subsribe-btn-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-flay"></use>
+              </svg>
+              <!-- </span> -->
+            </button>
           </form>
         </div>
       </div>
@@ -520,17 +537,7 @@
               I accept the terms and conditions of the&nbsp;
               <a class="privacy-link link" href="">Privacy Policy</a>
             </label>
-              <!-- <label class="modal-form-label modal-check-label" for=" user-privasy">I accept the terms and conditions of the 
-                 <a
-                  href="#"
-                  class="form-agreement-link"
-                  >Privacy Policy</a>
-             <span class="checkbox-click">
-                <svg class="privacy-check-icon" width="10" height="8">
-                  <use href="./images/sprite.svg#icon-click"></use>
-                </svg>
-              </span>
-             </label> -->
+             
           </div>
           <button class="submit" type="submit">Send</button>
         </form>
