@@ -813,7 +813,7 @@ body {
   color: var(--accent-color);
   cursor: pointer;
 }
-.submit {
+.send-btn {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -831,10 +831,10 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
 
-  transition: background-color var(--transition-prop);
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.submit:hover,
-.submit:focus {
+.send-btn:hover,
+.send-btn:focus {
   background-color: var(--action-color);
   cursor: pointer;
 }
