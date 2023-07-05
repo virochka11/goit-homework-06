@@ -749,16 +749,14 @@ body {
   transform: translateY(-50%);
   fill: currentColor;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+    
 }
 .modal-form-input:focus {
   border-color: #4d5ae5;
 }
 .modal-form-input:focus + .modal-form-icon {
   fill: #4d5ae5;
-  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 .modal-form-messege {
   width: 100%;
