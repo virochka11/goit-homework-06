@@ -802,6 +802,12 @@ font-size: 12px;
 }
 .form-agreement-checkbox {
   appearance: none;
+
+}
+.form-agreement-checkbox:checked ~.checkbox-click {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 .checkbox-click {
   display: inline-flex;
