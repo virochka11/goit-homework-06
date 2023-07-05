@@ -801,19 +801,6 @@ font-size: 12px;
 }
 .form-agreement-checkbox {
   appearance: none;
-  /* display: inline-flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  fill: transparent;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .checkbox-click {
   display: inline-flex;
@@ -911,4 +898,15 @@ font-size: 12px;
 .subsribe-btn-icon {
   fill: #fff;
   margin-left: 16px;
+}
+.section-subtitle .footer-subscribe {
+  margin-bottom: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02;
+  color: #ffffff;
+
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
 }
